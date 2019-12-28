@@ -20,7 +20,7 @@ Once open, check out the LED Settings page. I've already told it you have 450 le
 
 # Controller connection diagrams
 
-![image](https://github.com/billchurch/phil_lights/raw/master/IMG_0801.jpg)
 ![image](https://github.com/billchurch/phil_lights/raw/master/IMG_0802.jpg)
 ![image](https://github.com/billchurch/phil_lights/raw/master/IMG_0803.jpg)
 ![image](https://github.com/billchurch/phil_lights/raw/master/IMG_0804.jpg)
+![image](https://github.com/billchurch/phil_lights/raw/master/IMG_0805.jpg)
