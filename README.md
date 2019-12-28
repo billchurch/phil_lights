@@ -18,7 +18,16 @@ You can checkout the [WLED Wiki here for more info](https://github.com/Aircoooki
 
 Once open, check out the LED Settings page. I've already told it you have 450 leds (which should be 3 of those 150 LED strips) you can modify this though, if you have less or more than specified it won't hurt anything, just the animations may not work properly.
 
-# Controller connection diagrams
+# Light strip info
+When connecting light strips together, ensure that the data input (yellow/green from controller) enters the strip behind where the arrow is pointing. Thing of the data pin as a hose and it has to push in the direction of the arrow. As you add strips, you need to make sure that the arrows are oriented properly. Data MUST be connected in series, not parallel. Power (red/black) may be connected in parallel. Data (yellow/green) are the same signal line and can be combined into a single wire.
+
+See diagram for a suggested wiring method. Power injected from one side and data daisy chained from end to starts. Note that the direction for the middle bank of LEDs are reversed so that the data injection is on the proper side.
+
+IF you don't want to control the 3 strips independantly, you can actually run them all in the same direction, inject the data at the start of each strip, it will be treated as 150 LEDs vs 450. Whatever you do on strip 1, Led 1 will happen on Strip2/3 Led1 and so on... I wouldn't recommend this though, as it limits your flexibility (zoning off different areas, etc...)
+
+![image](https://github.com/billchurch/phil_lights/raw/master/diagram.png)
+
+# Connection diagrams
 
 ![image](https://github.com/billchurch/phil_lights/raw/master/IMG_0802.jpg)
 ![image](https://github.com/billchurch/phil_lights/raw/master/IMG_0803.jpg)
